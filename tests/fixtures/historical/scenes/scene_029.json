@@ -1,0 +1,1000 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "s_region_001_box_7879dab64f47": {
+      "fill": "light_blue",
+      "stroke": "dark_blue",
+      "text_color": "black",
+      "font_size": 18
+    },
+    "s_region_001_heading_9061eaacc52e": {
+      "fill": "dark_blue",
+      "stroke": "dark_blue",
+      "text_color": "white",
+      "font_size": 22,
+      "bold": true
+    },
+    "s_region_001_overlap_marker_0bd1dffde037": {
+      "fill": "white",
+      "stroke": "gray",
+      "text_color": "black",
+      "line_width": 0.8,
+      "font_size": 12
+    },
+    "s_region_001_shared_c01a15fbd522": {
+      "text_color": "black",
+      "font_size": 18
+    },
+    "s_region_002_box_513e41d90ddc": {
+      "fill": "white",
+      "stroke": "blue",
+      "text_color": "black",
+      "font_size": 18
+    },
+    "s_region_003_box_f7ba8af5eab8": {
+      "fill": "light_blue",
+      "stroke": "black",
+      "text_color": "dark_blue",
+      "font_size": 17
+    }
+  },
+  "nodes": [
+    {
+      "id": "o_region_001_panel_a8624cb3521a",
+      "type": "rectangle",
+      "bbox": [
+        4,
+        4,
+        460,
+        1016
+      ],
+      "style": {
+        "fill": "none",
+        "stroke": "gray",
+        "line_width": 0.6
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "panel",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_heading_d1928376f1b6",
+      "type": "rounded_rectangle",
+      "bbox": [
+        28.08,
+        40.96,
+        411.84,
+        66.56
+      ],
+      "text": "Mock：模型结构",
+      "mode": "text",
+      "style": "s_region_001_heading_9061eaacc52e",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "heading",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_fixture_note_a4d85da4d4f1",
+      "type": "text",
+      "bbox": [
+        32.760000000000005,
+        942.08,
+        402.48,
+        46.08
+      ],
+      "text": "离线 Mock：非真实模型识别结果",
+      "mode": "text",
+      "style": {
+        "text_color": "gray",
+        "font_size": 14
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "fixture_note",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_box_ffb83d62d633",
+      "type": "rounded_rectangle",
+      "bbox": [
+        70.2,
+        184.32,
+        327.59999999999997,
+        66.56
+      ],
+      "text": "Token / 位置嵌入",
+      "mode": "text",
+      "style": "s_region_001_box_7879dab64f47",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "box",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_transformer_4a1a623d565a",
+      "type": "rounded_rectangle",
+      "bbox": [
+        70.2,
+        348.16,
+        327.59999999999997,
+        66.56
+      ],
+      "text": "TransformerBlock",
+      "mode": "text",
+      "style": "s_region_001_box_7879dab64f47",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "transformer",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_output_66ab77761aa2",
+      "type": "rounded_rectangle",
+      "bbox": [
+        70.2,
+        512.0,
+        327.59999999999997,
+        66.56
+      ],
+      "text": "输出层 out_head",
+      "mode": "text",
+      "style": "s_region_001_box_7879dab64f47",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "output",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_tensor_0146b034d912",
+      "type": "tensor3d",
+      "bbox": [
+        107.64,
+        706.56,
+        177.84,
+        92.16
+      ],
+      "depth": {
+        "dx": 18,
+        "dy": -12
+      },
+      "grid": {
+        "rows": 2,
+        "cols": 3
+      },
+      "style": {
+        "fill": "light_blue",
+        "stroke": "blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "fixture_role": "depth_vector_translation_check",
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "tensor",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_shared_rect_e035d2463fda",
+      "type": "rectangle",
+      "bbox": [
+        446,
+        839.68,
+        18,
+        20
+      ],
+      "style": "s_region_001_overlap_marker_0bd1dffde037",
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "fixture_role": "overlap_duplicate",
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "shared_rect",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          },
+          {
+            "region_id": "region_002",
+            "local_id": "shared_rect",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_panel_3c5b0b9f1c26",
+      "type": "rectangle",
+      "bbox": [
+        448,
+        4,
+        598,
+        1016
+      ],
+      "style": {
+        "fill": "none",
+        "stroke": "gray",
+        "line_width": 0.6
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "panel",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_heading_0858bba9752c",
+      "type": "rounded_rectangle",
+      "bbox": [
+        480.36,
+        40.96,
+        533.28,
+        66.56
+      ],
+      "text": "Mock：权重加载步骤",
+      "mode": "text",
+      "style": "s_region_001_heading_9061eaacc52e",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "heading",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_fixture_note_869788d97f1f",
+      "type": "text",
+      "bbox": [
+        486.42,
+        942.08,
+        521.16,
+        46.08
+      ],
+      "text": "离线 Mock：非真实模型识别结果",
+      "mode": "text",
+      "style": {
+        "text_color": "gray",
+        "font_size": 14
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "fixture_note",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_box_cb63666f2df3",
+      "type": "rounded_rectangle",
+      "bbox": [
+        504.6,
+        184.32,
+        484.8,
+        66.56
+      ],
+      "text": "步骤 1：嵌入权重加载",
+      "mode": "text",
+      "style": "s_region_002_box_513e41d90ddc",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "box",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_step2_724feca005f5",
+      "type": "rounded_rectangle",
+      "bbox": [
+        504.6,
+        348.16,
+        484.8,
+        66.56
+      ],
+      "text": "步骤 2：Q / K / V 拆分",
+      "mode": "text",
+      "style": "s_region_002_box_513e41d90ddc",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "step2",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_step3_75e69c86b655",
+      "type": "rounded_rectangle",
+      "bbox": [
+        504.6,
+        512.0,
+        484.8,
+        66.56
+      ],
+      "text": "步骤 3：转置后赋值",
+      "mode": "text",
+      "style": "s_region_002_box_513e41d90ddc",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "step3",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_matrix_12c43c90f69a",
+      "type": "matrix",
+      "bbox": [
+        553.08,
+        696.32,
+        254.51999999999998,
+        102.4
+      ],
+      "grid": {
+        "rows": 2,
+        "cols": 4
+      },
+      "style": {
+        "fill": "light_blue",
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "matrix",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_panel_15be846f25d5",
+      "type": "rectangle",
+      "bbox": [
+        1030,
+        4,
+        502,
+        1016
+      ],
+      "style": {
+        "fill": "none",
+        "stroke": "gray",
+        "line_width": 0.6
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "panel",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_heading_66de5c28e472",
+      "type": "rounded_rectangle",
+      "bbox": [
+        1056.6,
+        40.96,
+        448.8,
+        66.56
+      ],
+      "text": "Mock：参数树",
+      "mode": "text",
+      "style": "s_region_001_heading_9061eaacc52e",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "heading",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_fixture_note_c9ee4f3aa027",
+      "type": "text",
+      "bbox": [
+        1061.7,
+        942.08,
+        438.59999999999997,
+        46.08
+      ],
+      "text": "离线 Mock：非真实模型识别结果",
+      "mode": "text",
+      "style": {
+        "text_color": "gray",
+        "font_size": 14
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "fixture_note",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_box_c91012df87b2",
+      "type": "rounded_rectangle",
+      "bbox": [
+        1077.0,
+        184.32,
+        168.3,
+        66.56
+      ],
+      "text": "params",
+      "mode": "text",
+      "style": "s_region_003_box_f7ba8af5eab8",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "box",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_wpe_3b2c4b4567c5",
+      "type": "rounded_rectangle",
+      "bbox": [
+        1245.3,
+        358.4,
+        255.0,
+        61.44
+      ],
+      "text": "wpe：位置嵌入",
+      "mode": "text",
+      "style": "s_region_003_box_f7ba8af5eab8",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "wpe",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_wte_4a5efcace49c",
+      "type": "rounded_rectangle",
+      "bbox": [
+        1245.3,
+        491.52,
+        255.0,
+        61.44
+      ],
+      "text": "wte：词嵌入",
+      "mode": "text",
+      "style": "s_region_003_box_f7ba8af5eab8",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "wte",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_blocks_35997209de68",
+      "type": "rounded_rectangle",
+      "bbox": [
+        1245.3,
+        624.64,
+        255.0,
+        61.44
+      ],
+      "text": "blocks：Transformer 块",
+      "mode": "text",
+      "style": "s_region_003_box_f7ba8af5eab8",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "blocks",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "o_region_001_label_f087b00d0963",
+      "text": "768",
+      "mode": "math",
+      "x": 351.0,
+      "y": 747.52,
+      "anchor": "center",
+      "style": "s_region_001_shared_c01a15fbd522",
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "bbox": [
+          331.0,
+          735.52,
+          40,
+          24
+        ],
+        "fixture_role": "equal_text_at_distinct_positions",
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "label",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_shared_label_c5a1c5d57166",
+      "text": "X",
+      "mode": "math",
+      "x": 455.0,
+      "y": 849.68,
+      "anchor": "center",
+      "style": "s_region_001_overlap_marker_0bd1dffde037",
+      "metadata": {
+        "node_id": "o_region_001_shared_rect_e035d2463fda",
+        "source": "mock_not_model_recognition",
+        "bbox": [
+          448,
+          842.68,
+          14,
+          14
+        ],
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "shared_label",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          },
+          {
+            "region_id": "region_002",
+            "local_id": "shared_label",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_label_fb5ce9d3638b",
+      "text": "768",
+      "mode": "math",
+      "x": 904.56,
+      "y": 747.52,
+      "anchor": "center",
+      "style": "s_region_001_shared_c01a15fbd522",
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "bbox": [
+          884.56,
+          735.52,
+          40,
+          24
+        ],
+        "fixture_role": "equal_text_at_distinct_positions",
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "label",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_rich_example_f4170d039206",
+      "mode": "rich",
+      "x": 747.0,
+      "y": 880.64,
+      "anchor": "center",
+      "style": "s_region_001_shared_c01a15fbd522",
+      "segments": [
+        {
+          "type": "text",
+          "content": "示例矩阵："
+        },
+        {
+          "type": "math",
+          "content": "W\\in\\mathbb{R}^{4\\times8}"
+        }
+      ],
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "node_id": "o_region_002_matrix_12c43c90f69a",
+        "fixture_role": "synthetic_rich_text_preservation",
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "rich_example",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_label_3cdf58f27363",
+      "text": "768",
+      "mode": "math",
+      "x": 1332.0,
+      "y": 808.96,
+      "anchor": "center",
+      "style": "s_region_001_shared_c01a15fbd522",
+      "metadata": {
+        "source": "mock_not_model_recognition",
+        "bbox": [
+          1312.0,
+          796.96,
+          40,
+          24
+        ],
+        "fixture_role": "equal_text_at_distinct_positions",
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "label",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "o_region_001_internal_1_91370555cc30",
+      "from": "o_region_001_box_ffb83d62d633",
+      "to": "o_region_001_transformer_4a1a623d565a",
+      "from_anchor": "south",
+      "to_anchor": "north",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "internal_1",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_001_internal_2_2c507b9eb768",
+      "from": "o_region_001_transformer_4a1a623d565a",
+      "to": "o_region_001_output_66ab77761aa2",
+      "from_anchor": "south",
+      "to_anchor": "north",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "internal_2",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_internal_1_1632514af7f9",
+      "from": "o_region_002_box_cb63666f2df3",
+      "to": "o_region_002_step2_724feca005f5",
+      "from_anchor": "south",
+      "to_anchor": "north",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "internal_1",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_internal_2_bf97618c256d",
+      "points": [
+        [
+          747.0,
+          414.72
+        ],
+        [
+          1013.64,
+          414.72
+        ],
+        [
+          1013.64,
+          491.52
+        ],
+        [
+          747.0,
+          491.52
+        ],
+        [
+          747.0,
+          512.0
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "blue",
+        "line_width": 1.2
+      },
+      "metadata": {
+        "source_id": "o_region_002_step2_724feca005f5",
+        "target_id": "o_region_002_step3_75e69c86b655",
+        "from_anchor": "south",
+        "to_anchor": "north",
+        "source": "mock_not_model_recognition",
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "internal_2",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_tree_wpe_5610ed4253d5",
+      "from": "o_region_003_box_c91012df87b2",
+      "to": "o_region_003_wpe_3b2c4b4567c5",
+      "from_anchor": "south",
+      "to_anchor": "west",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "routing": "orthogonal",
+      "first_axis": "y",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "tree_wpe",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_tree_wte_58f182802739",
+      "from": "o_region_003_box_c91012df87b2",
+      "to": "o_region_003_wte_4a5efcace49c",
+      "from_anchor": "south",
+      "to_anchor": "west",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "routing": "orthogonal",
+      "first_axis": "y",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "tree_wte",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_003_tree_blocks_6f63ed92a2d8",
+      "from": "o_region_003_box_c91012df87b2",
+      "to": "o_region_003_blocks_35997209de68",
+      "from_anchor": "south",
+      "to_anchor": "west",
+      "arrow": "end",
+      "style": {
+        "stroke": "dark_blue",
+        "line_width": 1.2
+      },
+      "routing": "orthogonal",
+      "first_axis": "y",
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_003",
+            "local_id": "tree_blocks",
+            "coordinate_system": "local",
+            "source": "mock_not_model_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c_region_001_cross_confirmed_fd06bba18773",
+      "from": "o_region_001_box_ffb83d62d633",
+      "to": "o_region_002_box_cb63666f2df3",
+      "from_anchor": "east",
+      "to_anchor": "west",
+      "arrow": "end",
+      "metadata": {
+        "source_id": "o_region_001_box_ffb83d62d633",
+        "target_id": "o_region_002_box_cb63666f2df3",
+        "from_anchor": "east",
+        "to_anchor": "west",
+        "connection_evidence": {
+          "kind": "mock_confirmed",
+          "confirmed": true
+        },
+        "mock_only": true,
+        "region_provenance": [
+          {
+            "region_id": "region_001",
+            "local_id": "cross_confirmed"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "offline_region_scene_merge",
+    "real_vlm_recognition_verified": false,
+    "coordinate_system": "global",
+    "region_sources": [
+      {
+        "region_id": "region_001",
+        "coordinate_system": "local",
+        "scene_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "recognition_performed": false
+        },
+        "bundle_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "not_evidence_of_visual_recognition": true
+        }
+      },
+      {
+        "region_id": "region_002",
+        "coordinate_system": "local",
+        "scene_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "recognition_performed": false
+        },
+        "bundle_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "not_evidence_of_visual_recognition": true
+        }
+      },
+      {
+        "region_id": "region_003",
+        "coordinate_system": "local",
+        "scene_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "recognition_performed": false
+        },
+        "bundle_metadata": {
+          "source": "mock_not_model_recognition",
+          "manual_fixture": true,
+          "not_evidence_of_visual_recognition": true
+        }
+      }
+    ],
+    "pending_cross_region_count": 1
+  }
+}

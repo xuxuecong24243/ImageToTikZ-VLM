@@ -1,0 +1,18 @@
+{
+  "middle_badge": {
+    "original_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+    "public_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+    "redacted_fields": []
+  },
+  "native_exports_snapshot": {
+    "source": "outputs/two_stage_ir_prototype_20261120/before_sha256.json",
+    "retained_keys": [
+      "structured_tikz/__init__.py"
+    ],
+    "note": "Minimal extracted original hash. This is not the full historical archive manifest."
+  },
+  "visual_feedback_raw": {
+    "original_sha256": "d9b7ea66c04558d398bac70bfcb6ac6c0f235bc43f198cd80b1e1bd63ac7a36b",
+    "note": "Visible model feedback only, unchanged; no HTTP envelope, key, or provider reasoning."
+  }
+}

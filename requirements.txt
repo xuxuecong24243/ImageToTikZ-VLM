@@ -1,0 +1,6 @@
+# v0.5 Local release: verified on Windows / CPython 3.9.10.
+# HTTP and unittest use the standard library; XeLaTeX is an external dependency.
+# Install requirements-geometry.txt in this environment for --backend local.
+# Install requirements-ocr.txt only in the separate .venv-ocr environment.
+Pillow==11.3.0
+PyMuPDF==1.26.5

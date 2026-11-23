@@ -1,0 +1,1159 @@
+{
+  "canvas": {
+    "width": 1774,
+    "height": 887,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "title": {
+      "text_color": "black",
+      "font_size": 28,
+      "bold": true
+    },
+    "section": {
+      "text_color": "black",
+      "font_size": 20,
+      "bold": true
+    },
+    "label_cn": {
+      "text_color": "black",
+      "font_size": 16
+    },
+    "math": {
+      "text_color": "black",
+      "font_size": 16
+    },
+    "tensor_fill": {
+      "fill": "light_blue",
+      "stroke": "blue",
+      "line_width": 1.5
+    },
+    "box_fill": {
+      "fill": "white",
+      "stroke": "blue",
+      "line_width": 2,
+      "rounded_radius": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "bbox": [
+        570,
+        50,
+        630,
+        40
+      ],
+      "text": "GPT 输入嵌入：张量维度与广播机制",
+      "mode": "text",
+      "style": "title",
+      "align": "center"
+    },
+    {
+      "id": "sec_token",
+      "type": "text",
+      "bbox": [
+        40,
+        120,
+        250,
+        30
+      ],
+      "text": "词元嵌入 (内容信息)",
+      "mode": "text",
+      "style": "section",
+      "align": "left"
+    },
+    {
+      "id": "sec_pos",
+      "type": "text",
+      "bbox": [
+        1060,
+        120,
+        250,
+        30
+      ],
+      "text": "位置嵌入 (位置信息)",
+      "mode": "text",
+      "style": "section",
+      "align": "left"
+    },
+    {
+      "id": "sep_line",
+      "type": "rectangle",
+      "bbox": [
+        1030,
+        110,
+        2,
+        300
+      ],
+      "style": {
+        "fill": "blue",
+        "stroke": "blue"
+      }
+    },
+    {
+      "id": "X_matrix",
+      "type": "matrix",
+      "bbox": [
+        80,
+        250,
+        180,
+        110
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "brace_X_L",
+      "type": "text",
+      "bbox": [
+        130,
+        210,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "brace_X_B",
+      "type": "text",
+      "bbox": [
+        30,
+        280,
+        40,
+        20
+      ],
+      "text": "B = 8",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "WE_matrix",
+      "type": "matrix",
+      "bbox": [
+        460,
+        250,
+        140,
+        180
+      ],
+      "grid": {
+        "rows": 5,
+        "cols": 4
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_WE_dim",
+      "type": "text",
+      "bbox": [
+        470,
+        430,
+        120,
+        20
+      ],
+      "text": "256",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_WE_rows",
+      "type": "text",
+      "bbox": [
+        390,
+        330,
+        60,
+        20
+      ],
+      "text": "50257",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "Etok_tensor",
+      "type": "tensor3d",
+      "bbox": [
+        730,
+        250,
+        160,
+        120
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "depth": {
+        "dx": 60,
+        "dy": -40
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_Etok_L",
+      "type": "text",
+      "bbox": [
+        760,
+        380,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Etok_B",
+      "type": "text",
+      "bbox": [
+        680,
+        300,
+        40,
+        20
+      ],
+      "text": "B = 8",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Etok_d",
+      "type": "text",
+      "bbox": [
+        930,
+        310,
+        80,
+        20
+      ],
+      "text": "d = 256",
+      "mode": "math",
+      "style": "math",
+      "align": "left"
+    },
+    {
+      "id": "P_matrix",
+      "type": "matrix",
+      "bbox": [
+        1070,
+        290,
+        160,
+        40
+      ],
+      "grid": {
+        "rows": 1,
+        "cols": 4
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_P_L",
+      "type": "text",
+      "bbox": [
+        1110,
+        340,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "WP_matrix",
+      "type": "matrix",
+      "bbox": [
+        1380,
+        250,
+        140,
+        100
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_WP_dim",
+      "type": "text",
+      "bbox": [
+        1400,
+        360,
+        80,
+        20
+      ],
+      "text": "256",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "Epos_matrix",
+      "type": "matrix",
+      "bbox": [
+        1620,
+        250,
+        140,
+        100
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_Epos_dim",
+      "type": "text",
+      "bbox": [
+        1640,
+        360,
+        80,
+        20
+      ],
+      "text": "256",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "Epos_broadcast_tensor",
+      "type": "tensor3d",
+      "bbox": [
+        1120,
+        510,
+        120,
+        40
+      ],
+      "grid": {
+        "rows": 1,
+        "cols": 4
+      },
+      "depth": {
+        "dx": 40,
+        "dy": -20
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_Epos_b_L",
+      "type": "text",
+      "bbox": [
+        1140,
+        560,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Epos_b_d",
+      "type": "text",
+      "bbox": [
+        1290,
+        530,
+        80,
+        20
+      ],
+      "text": "d = 256",
+      "mode": "math",
+      "style": "math",
+      "align": "left"
+    },
+    {
+      "id": "label_Epos_b_1",
+      "type": "text",
+      "bbox": [
+        1080,
+        520,
+        30,
+        20
+      ],
+      "text": "1",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "Etok_broadcast_tensor",
+      "type": "tensor3d",
+      "bbox": [
+        1540,
+        490,
+        120,
+        80
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "depth": {
+        "dx": 40,
+        "dy": -30
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_Et_b_dim",
+      "type": "text",
+      "bbox": [
+        1530,
+        430,
+        100,
+        20
+      ],
+      "text": "(8, 4, 256)",
+      "mode": "math",
+      "style": "math",
+      "align": "left"
+    },
+    {
+      "id": "label_Et_b_L",
+      "type": "text",
+      "bbox": [
+        1550,
+        580,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Et_b_d",
+      "type": "text",
+      "bbox": [
+        1680,
+        550,
+        80,
+        20
+      ],
+      "text": "d = 256",
+      "mode": "math",
+      "style": "math",
+      "align": "left"
+    },
+    {
+      "id": "label_Et_b_B",
+      "type": "text",
+      "bbox": [
+        1480,
+        520,
+        40,
+        20
+      ],
+      "text": "B = 8",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "add_box",
+      "type": "rounded_rectangle",
+      "bbox": [
+        700,
+        620,
+        400,
+        100
+      ],
+      "style": "box_fill"
+    },
+    {
+      "id": "Einput_tensor",
+      "type": "tensor3d",
+      "bbox": [
+        930,
+        740,
+        160,
+        100
+      ],
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "depth": {
+        "dx": 50,
+        "dy": -30
+      },
+      "style": "tensor_fill"
+    },
+    {
+      "id": "label_Ei_L",
+      "type": "text",
+      "bbox": [
+        960,
+        850,
+        80,
+        20
+      ],
+      "text": "L = 4",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Ei_B",
+      "type": "text",
+      "bbox": [
+        880,
+        780,
+        40,
+        20
+      ],
+      "text": "B = 8",
+      "mode": "math",
+      "style": "math",
+      "align": "center"
+    },
+    {
+      "id": "label_Ei_d",
+      "type": "text",
+      "bbox": [
+        1110,
+        800,
+        80,
+        20
+      ],
+      "text": "d = 256",
+      "mode": "math",
+      "style": "math",
+      "align": "left"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_X_WE",
+      "points": [
+        [
+          270,
+          305
+        ],
+        [
+          440,
+          305
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "X_matrix",
+        "target_id": "WE_matrix",
+        "from_anchor": "east",
+        "to_anchor": "west"
+      }
+    },
+    {
+      "id": "e_WE_Etok",
+      "points": [
+        [
+          610,
+          340
+        ],
+        [
+          710,
+          340
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "WE_matrix",
+        "target_id": "Etok_tensor",
+        "from_anchor": "east",
+        "to_anchor": "west"
+      }
+    },
+    {
+      "id": "e_P_WP",
+      "points": [
+        [
+          1240,
+          305
+        ],
+        [
+          1360,
+          305
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "P_matrix",
+        "target_id": "WP_matrix",
+        "from_anchor": "east",
+        "to_anchor": "west"
+      }
+    },
+    {
+      "id": "e_WP_Epos",
+      "points": [
+        [
+          1530,
+          300
+        ],
+        [
+          1600,
+          300
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "WP_matrix",
+        "target_id": "Epos_matrix",
+        "from_anchor": "east",
+        "to_anchor": "west"
+      }
+    },
+    {
+      "id": "e_Epos_broadcast",
+      "points": [
+        [
+          1700,
+          355
+        ],
+        [
+          1700,
+          390
+        ],
+        [
+          1180,
+          390
+        ],
+        [
+          1180,
+          500
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "Epos_matrix",
+        "target_id": "Epos_broadcast_tensor",
+        "from_anchor": "south",
+        "to_anchor": "north"
+      }
+    },
+    {
+      "id": "e_broadcast_to_Et",
+      "points": [
+        [
+          1290,
+          530
+        ],
+        [
+          1470,
+          530
+        ]
+      ],
+      "arrow": "end",
+      "dashed": true,
+      "style": {
+        "stroke": "blue",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "Epos_broadcast_tensor",
+        "target_id": "Etok_broadcast_tensor",
+        "from_anchor": "east",
+        "to_anchor": "west"
+      }
+    },
+    {
+      "id": "e_WE_down",
+      "points": [
+        [
+          530,
+          435
+        ],
+        [
+          530,
+          570
+        ],
+        [
+          850,
+          570
+        ],
+        [
+          850,
+          610
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "WE_matrix",
+        "target_id": "add_box",
+        "from_anchor": "south",
+        "to_anchor": "north"
+      }
+    },
+    {
+      "id": "e_Epos_down",
+      "points": [
+        [
+          1180,
+          565
+        ],
+        [
+          1180,
+          590
+        ],
+        [
+          900,
+          590
+        ],
+        [
+          900,
+          610
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "Epos_broadcast_tensor",
+        "target_id": "add_box",
+        "from_anchor": "south",
+        "to_anchor": "north"
+      }
+    },
+    {
+      "id": "e_Et_down",
+      "points": [
+        [
+          1660,
+          570
+        ],
+        [
+          1660,
+          690
+        ],
+        [
+          1110,
+          690
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "Etok_broadcast_tensor",
+        "target_id": "add_box",
+        "from_anchor": "south",
+        "to_anchor": "east"
+      }
+    },
+    {
+      "id": "e_add_down",
+      "points": [
+        [
+          900,
+          720
+        ],
+        [
+          900,
+          730
+        ]
+      ],
+      "arrow": "end",
+      "style": {
+        "stroke": "black",
+        "line_width": 2
+      },
+      "metadata": {
+        "source_id": "add_box",
+        "target_id": "Einput_tensor",
+        "from_anchor": "south",
+        "to_anchor": "north"
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "l_X",
+      "text": "输入词元 ID\n$X \\in \\mathbb{N}^{8 \\times 4}$",
+      "mode": "rich",
+      "x": 170,
+      "y": 190,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          60,
+          170,
+          220,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "输入词元 ID\n"
+        },
+        {
+          "type": "math",
+          "content": "X \\in \\mathbb{N}^{8 \\times 4}"
+        }
+      ]
+    },
+    {
+      "id": "l_WE",
+      "text": "词元嵌入矩阵\n(可训练)\n$W_E \\in \\mathbb{R}^{50257 \\times 256}$",
+      "mode": "rich",
+      "x": 530,
+      "y": 190,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          430,
+          170,
+          200,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "词元嵌入矩阵\n(可训练)\n"
+        },
+        {
+          "type": "math",
+          "content": "W_E \\in \\mathbb{R}^{50257 \\times 256}"
+        }
+      ]
+    },
+    {
+      "id": "l_Etok",
+      "text": "词元嵌入\n$E_{tok} \\in \\mathbb{R}^{8 \\times 4 \\times 256}$",
+      "mode": "rich",
+      "x": 830,
+      "y": 190,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          720,
+          170,
+          240,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "词元嵌入\n"
+        },
+        {
+          "type": "math",
+          "content": "E_{tok} \\in \\mathbb{R}^{8 \\times 4 \\times 256}"
+        }
+      ]
+    },
+    {
+      "id": "l_P",
+      "text": "位置索引\n$p = [0, 1, 2, 3] \\in \\mathbb{N}^4$",
+      "mode": "rich",
+      "x": 1150,
+      "y": 250,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          1050,
+          230,
+          200,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "位置索引\n"
+        },
+        {
+          "type": "math",
+          "content": "p = [0, 1, 2, 3] \\in \\mathbb{N}^4"
+        }
+      ]
+    },
+    {
+      "id": "l_WP",
+      "text": "位置嵌入矩阵\n(可训练)\n$W_P \\in \\mathbb{R}^{4 \\times 256}$",
+      "mode": "rich",
+      "x": 1450,
+      "y": 190,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          1350,
+          170,
+          200,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "位置嵌入矩阵\n(可训练)\n"
+        },
+        {
+          "type": "math",
+          "content": "W_P \\in \\mathbb{R}^{4 \\times 256}"
+        }
+      ]
+    },
+    {
+      "id": "l_Epos",
+      "text": "位置嵌入\n$E_{pos} \\in \\mathbb{R}^{4 \\times 256}$",
+      "mode": "rich",
+      "x": 1700,
+      "y": 190,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          1600,
+          170,
+          200,
+          50
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "位置嵌入\n"
+        },
+        {
+          "type": "math",
+          "content": "E_{pos} \\in \\mathbb{R}^{4 \\times 256}"
+        }
+      ]
+    },
+    {
+      "id": "l_broadcast",
+      "text": "增加批次维度并沿批次轴广播\n(无新增参数)\n$E_{pos}[None, :, :] \\in \\mathbb{R}^{1 \\times 4 \\times 256}$",
+      "mode": "rich",
+      "x": 1260,
+      "y": 450,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          1080,
+          410,
+          360,
+          80
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "增加批次维度并沿批次轴广播\n(无新增参数)\n"
+        },
+        {
+          "type": "math",
+          "content": "E_{pos}[None, :, :] \\in \\mathbb{R}^{1 \\times 4 \\times 256}"
+        }
+      ]
+    },
+    {
+      "id": "l_broadcast_arrow",
+      "text": "广播至\n(8, 4, 256)",
+      "mode": "text",
+      "x": 1440,
+      "y": 490,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          1380,
+          470,
+          120,
+          40
+        ]
+      }
+    },
+    {
+      "id": "l_add",
+      "text": "逐元素相加 (广播)\n$E_{input}[b, t, :] = W_E[X[b, t], :] + W_P[t, :]$",
+      "mode": "rich",
+      "x": 900,
+      "y": 670,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": "add_box",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          720,
+          630,
+          360,
+          80
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "逐元素相加 (广播)\n"
+        },
+        {
+          "type": "math",
+          "content": "E_{input}[b, t, :] = W_E[X[b, t], :] + W_P[t, :]"
+        }
+      ]
+    },
+    {
+      "id": "l_Einput",
+      "text": "最终输入嵌入\n$E_{input} \\in \\mathbb{R}^{8 \\times 4 \\times 256}$",
+      "mode": "rich",
+      "x": 810,
+      "y": 790,
+      "anchor": "center",
+      "font_size": 16,
+      "align": "center",
+      "style": "label_cn",
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          680,
+          750,
+          260,
+          80
+        ]
+      },
+      "segments": [
+        {
+          "type": "text",
+          "content": "最终输入嵌入\n"
+        },
+        {
+          "type": "math",
+          "content": "E_{input} \\in \\mathbb{R}^{8 \\times 4 \\times 256}"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "vlm_proposal_not_measured",
+    "review_status": "unverified",
+    "description": "Reconstructed GPT input embedding diagram with tensors, matrices, and addition operation. All positions and dimensions estimated from the provided image.",
+    "offline_recovery": {
+      "source_response": "[REDACTED_MACHINE_PATH]",
+      "response_sha256": "692dad47490c6c97103faf77938b571109b291af16ae2429335ad6efc49fe14d",
+      "changes": [
+        {
+          "id": "sep_line",
+          "field": "style.stroke",
+          "before": "none",
+          "after": "blue",
+          "reason": "Existing Schema does not support no stroke; use the same blue as its existing fill. This is an explicit compatibility approximation."
+        },
+        {
+          "id": "label_Epos",
+          "field": "bbox",
+          "before": [
+            1600,
+            170,
+            200,
+            50
+          ],
+          "after": [
+            1600,
+            170,
+            174,
+            50
+          ],
+          "reason": "Limit only the text node width to the existing canvas edge; retain its x,y,height,text."
+        }
+      ],
+      "review_status": "unverified",
+      "scope": "wrapper_and_two_schema_compatibility_fixes_only"
+    }
+  }
+}

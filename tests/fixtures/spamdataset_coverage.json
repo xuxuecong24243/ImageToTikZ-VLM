@@ -1,0 +1,34 @@
+{
+  "fixture_purpose": "Offline evaluation only; never supplied to generic generation or recovery",
+  "content": [
+    {"id":"title","all_of":["SpamDataset","如何准备短信分类样本"]},
+    {"id":"csv_heading","all_of":["从一行 CSV 到一条样本"]},
+    {"id":"csv_text","all_of":["Hello world"]},
+    {"id":"encoding","all_of":["15496","995"]},
+    {"id":"padding","all_of":["50256","pad_token_id"]},
+    {"id":"tensor","all_of":["tensor"]},
+    {"id":"csv_label","all_of":["Label"]},
+    {"id":"label_tensor","all_of":["tensor(0)"]},
+    {"id":"init","all_of":["__init__()"]},
+    {"id":"getitem","all_of":["__getitem__","dataset[index]"]},
+    {"id":"len","all_of":["__len__","len(dataset)"]},
+    {"id":"condition","all_of":["max_length","指定"]},
+    {"id":"yes","exact":["是"]},
+    {"id":"no","exact":["否"]},
+    {"id":"longest","all_of":["_longest_encoded_length"]},
+    {"id":"truncate","all_of":["max_length","超长"]},
+    {"id":"save","all_of":["self.encoded_texts"]}
+  ],
+  "relations": [
+    {"id":"text_to_encoding","source":"csv_text","target":"encoding"},
+    {"id":"encoding_to_padding","source":"encoding","target":"padding"},
+    {"id":"padding_to_tensor","source":"padding","target":"tensor"},
+    {"id":"label_independent_flow","source":"csv_label","target":"label_tensor","direct":true},
+    {"id":"condition_yes_branch","source":"condition","target":"truncate","branch_label":"是"},
+    {"id":"condition_no_branch","source":"condition","target":"longest","branch_label":"否"},
+    {"id":"merge_from_longest","source":"longest","target":"padding"},
+    {"id":"merge_from_truncate","source":"truncate","target":"padding"},
+    {"id":"padding_to_save","source":"padding","target":"save"}
+  ],
+  "native_primitives":["diamond"]
+}

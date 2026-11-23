@@ -1,0 +1,574 @@
+{
+  "canvas": {
+    "width": 606,
+    "height": 1024,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "title_strip": {
+      "fill": "dark_blue",
+      "stroke": "none",
+      "text_color": "white",
+      "bold": true,
+      "font_size": 22
+    },
+    "card_light": {
+      "fill": "light_blue",
+      "stroke": "gray",
+      "line_width": 1,
+      "rounded_radius": 8
+    },
+    "card_outer": {
+      "fill": "white",
+      "stroke": "dark_blue",
+      "line_width": 2,
+      "rounded_radius": 10
+    },
+    "badge": {
+      "fill": "blue",
+      "stroke": "none",
+      "text_color": "white",
+      "bold": true,
+      "font_size": 20
+    },
+    "body_text": {
+      "fill": "none",
+      "stroke": "none",
+      "text_color": "black",
+      "font_size": 15
+    },
+    "sub_title": {
+      "fill": "none",
+      "stroke": "none",
+      "text_color": "black",
+      "bold": true,
+      "font_size": 17
+    }
+  },
+  "nodes": [
+    {
+      "id": "outer_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        20,
+        110,
+        566,
+        885
+      ],
+      "style": "card_outer",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "title_strip",
+      "type": "rounded_rectangle",
+      "bbox": [
+        30,
+        120,
+        546,
+        50
+      ],
+      "style": "title_strip",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "title_text",
+      "type": "text",
+      "bbox": [
+        80,
+        130,
+        446,
+        30
+      ],
+      "text": "权重加载的主要步骤",
+      "mode": "text",
+      "font_size": 26,
+      "align": "center",
+      "style": {
+        "fill": "none",
+        "stroke": "none",
+        "text_color": "white",
+        "bold": true
+      },
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step1_badge",
+      "type": "text",
+      "bbox": [
+        35,
+        180,
+        40,
+        40
+      ],
+      "text": "1",
+      "mode": "text",
+      "font_size": 22,
+      "align": "center",
+      "style": "badge",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      },
+      "background_shape": "circle"
+    },
+    {
+      "id": "step1_title",
+      "type": "text",
+      "bbox": [
+        85,
+        185,
+        200,
+        30
+      ],
+      "text": "嵌入层",
+      "mode": "text",
+      "font_size": 26,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step1_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        80,
+        220,
+        506,
+        65
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step1_body",
+      "type": "text",
+      "bbox": [
+        95,
+        221.0,
+        491,
+        58
+      ],
+      "text": "• pos_emb.weight ← params[\"wpe\"]\n• tok_emb.weight ← params[\"wte\"]",
+      "mode": "text",
+      "font_size": 21,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2_badge",
+      "type": "text",
+      "bbox": [
+        35,
+        320,
+        40,
+        40
+      ],
+      "text": "2",
+      "mode": "text",
+      "font_size": 22,
+      "align": "center",
+      "style": "badge",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      },
+      "background_shape": "circle"
+    },
+    {
+      "id": "step2_title",
+      "type": "text",
+      "bbox": [
+        85,
+        323,
+        496,
+        34
+      ],
+      "mode": "rich",
+      "segments": [
+        {
+          "type": "text",
+          "content": "对每个 Transformer 块 ("
+        },
+        {
+          "type": "math",
+          "content": "b = 0,\\ldots, L-1"
+        },
+        {
+          "type": "text",
+          "content": ")"
+        }
+      ],
+      "font_size": 24,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2a_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        50,
+        362,
+        536,
+        124
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2a_title",
+      "type": "text",
+      "bbox": [
+        65,
+        366,
+        300,
+        25
+      ],
+      "text": "(a) 注意力的 Q, K, V 投影",
+      "mode": "text",
+      "font_size": 23,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2a_body",
+      "type": "text",
+      "bbox": [
+        65,
+        404.0,
+        516,
+        70
+      ],
+      "text": "• 将 c_attn[\"w\"] 沿最后一维分成 q_w, k_w, v_w\n• 加载到 W_query / W_key / W_value（转置 .T）\n• 同理，分割 c_attn[\"b\"] 加载偏置",
+      "mode": "text",
+      "font_size": 21,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2b_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        50,
+        498,
+        536,
+        96
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2b_title",
+      "type": "text",
+      "bbox": [
+        65,
+        499,
+        300,
+        25
+      ],
+      "text": "(b) 注意力的输出投影",
+      "mode": "text",
+      "font_size": 23,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2b_body",
+      "type": "text",
+      "bbox": [
+        65,
+        543.0,
+        516,
+        40
+      ],
+      "text": "• out_proj.weight ← c_proj[\"w\"].T\n• out_proj.bias   ← c_proj[\"b\"]",
+      "mode": "text",
+      "font_size": 21,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2c_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        50,
+        606,
+        536,
+        98
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2c_title",
+      "type": "text",
+      "bbox": [
+        65,
+        608,
+        300,
+        25
+      ],
+      "text": "(c) 前馈网络 (MLP)",
+      "mode": "text",
+      "font_size": 23,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2c_body",
+      "type": "text",
+      "bbox": [
+        65,
+        652.0,
+        516,
+        40
+      ],
+      "text": "• ff.layers[0] ← mlp[\"c_fc\"]（FC, 扩升维）\n• ff.layers[2] ← mlp[\"c_proj\"]（降维投影）",
+      "mode": "text",
+      "font_size": 21,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2d_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        50,
+        716,
+        536,
+        98
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2d_title",
+      "type": "text",
+      "bbox": [
+        65,
+        720,
+        300,
+        25
+      ],
+      "text": "(d) 两个 LayerNorm",
+      "mode": "text",
+      "font_size": 23,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2d_body",
+      "type": "text",
+      "bbox": [
+        65,
+        763.0,
+        516,
+        40
+      ],
+      "text": "• norm1 ← ln_1[\"g\"], ln_1[\"b\"]\n• norm2 ← ln_2[\"g\"], ln_2[\"b\"]",
+      "mode": "text",
+      "font_size": 21,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step3_badge",
+      "type": "text",
+      "bbox": [
+        35,
+        841,
+        40,
+        40
+      ],
+      "text": "3",
+      "mode": "text",
+      "font_size": 22,
+      "align": "center",
+      "style": "badge",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      },
+      "background_shape": "circle"
+    },
+    {
+      "id": "step3_title",
+      "type": "text",
+      "bbox": [
+        85,
+        846,
+        150,
+        30
+      ],
+      "text": "最终层",
+      "mode": "text",
+      "font_size": 26,
+      "align": "left",
+      "style": "sub_title",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step3_card",
+      "type": "rounded_rectangle",
+      "bbox": [
+        50,
+        881,
+        536,
+        84
+      ],
+      "style": "card_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step3_body",
+      "type": "text",
+      "bbox": [
+        65,
+        896.0,
+        516,
+        50
+      ],
+      "text": "• final_norm.scale/shift ← params[\"g\"], params[\"b\"]\n• out_head.weight ← params[\"wte\"]（与词嵌入权重共享）",
+      "mode": "text",
+      "font_size": 20.5,
+      "align": "left",
+      "style": "body_text",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "top_title_label",
+      "type": "text",
+      "bbox": [
+        0,
+        25,
+        600,
+        40
+      ],
+      "text": "hts_into_gpt：将 GPT-2 预训练权重",
+      "mode": "text",
+      "font_size": 40,
+      "align": "left",
+      "style": {
+        "fill": "none",
+        "stroke": "none",
+        "text_color": "black",
+        "bold": true
+      },
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "metadata": {
+    "source": "vlm_proposal_not_measured",
+    "review_status": "unverified",
+    "notes": "Top title is cut off at left margin; preserved visible fragment.",
+    "pending_edges": [],
+    "human_review_required": true
+  }
+}

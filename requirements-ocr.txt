@@ -1,0 +1,7 @@
+# Isolated CPU OCR environment only; do not install over the main .venv.
+# RapidOCR 1.4.4 wheel includes its Chinese/English PP-OCR ONNX models.
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.19.2
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==11.3.0

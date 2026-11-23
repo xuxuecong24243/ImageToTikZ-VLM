@@ -1,0 +1,156 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "s_region_002_plain_9ed3461a1a28": {
+      "stroke": "none",
+      "fill": "none"
+    }
+  },
+  "nodes": [
+    {
+      "id": "o_region_002_tensor_073c98f348ff",
+      "type": "tensor3d",
+      "bbox": [
+        484,
+        150,
+        100,
+        60
+      ],
+      "grid": {
+        "rows": 2,
+        "cols": 3
+      },
+      "depth": {
+        "dx": 12,
+        "dy": -10
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "tensor",
+            "coordinate_system": "local",
+            "source": "synthetic_mock_not_recognition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_region_002_matrix_12c43c90f69a",
+      "type": "matrix",
+      "bbox": [
+        664,
+        150,
+        120,
+        60
+      ],
+      "grid": {
+        "rows": 2,
+        "cols": 4
+      },
+      "metadata": {
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "matrix",
+            "coordinate_system": "local",
+            "source": "synthetic_mock_not_recognition"
+          }
+        ]
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "o_region_002_caption_62d9da458fe2",
+      "mode": "rich",
+      "x": 474,
+      "y": 40,
+      "anchor": "north west",
+      "segments": [
+        {
+          "type": "text",
+          "content": "离线 Mock：中文与公式 "
+        },
+        {
+          "type": "math",
+          "content": "W\\in\\mathbb{R}^{4\\times8}"
+        }
+      ],
+      "style": "s_region_002_plain_9ed3461a1a28",
+      "metadata": {
+        "node_id": "o_region_002_matrix_12c43c90f69a",
+        "bbox": [
+          474,
+          40,
+          450,
+          35
+        ],
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "caption",
+            "coordinate_system": "local",
+            "source": "synthetic_mock_not_recognition"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "o_region_002_path_f80d411d890e",
+      "points": [
+        [
+          584,
+          180
+        ],
+        [
+          664,
+          180
+        ]
+      ],
+      "arrow": "end",
+      "metadata": {
+        "source_id": "o_region_002_tensor_073c98f348ff",
+        "target_id": "o_region_002_matrix_12c43c90f69a",
+        "region_provenance": [
+          {
+            "region_id": "region_002",
+            "local_id": "path",
+            "coordinate_system": "local",
+            "source": "synthetic_mock_not_recognition"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "source": "offline_region_scene_merge",
+    "real_vlm_recognition_verified": false,
+    "coordinate_system": "global",
+    "region_sources": [
+      {
+        "region_id": "region_002",
+        "coordinate_system": "local",
+        "scene_metadata": {
+          "source": "synthetic_mock_not_recognition"
+        },
+        "bundle_metadata": {
+          "source": "synthetic_mock_not_recognition"
+        }
+      }
+    ],
+    "pending_cross_region_count": 0,
+    "coverage": "middle_region_only_not_full_image_reconstruction",
+    "crop_origin": [
+      444,
+      0
+    ]
+  }
+}

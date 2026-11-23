@@ -1,0 +1,882 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "title_bar": {
+      "fill": "dark_blue",
+      "stroke": "black",
+      "text_color": "white",
+      "line_width": 1,
+      "font_size": 20,
+      "bold": true
+    },
+    "panel": {
+      "fill": "white",
+      "stroke": "dark_blue",
+      "line_width": 2,
+      "rounded_radius": 6
+    },
+    "box_light": {
+      "fill": "light_blue",
+      "stroke": "dark_blue",
+      "line_width": 1.5,
+      "rounded_radius": 4,
+      "font_size": 16,
+      "text_color": "black"
+    },
+    "box_white": {
+      "fill": "white",
+      "stroke": "dark_blue",
+      "line_width": 1.5,
+      "rounded_radius": 4,
+      "font_size": 16,
+      "text_color": "black"
+    },
+    "text_black": {
+      "text_color": "black",
+      "font_size": 15
+    },
+    "step_head": {
+      "fill": "light_blue",
+      "stroke": "none",
+      "text_color": "dark_blue",
+      "font_size": 17,
+      "bold": true
+    },
+    "circle_badge": {
+      "fill": "dark_blue",
+      "stroke": "none",
+      "text_color": "white",
+      "font_size": 18,
+      "bold": true
+    },
+    "arrow": {
+      "stroke": "black",
+      "line_width": 1.5
+    }
+  },
+  "nodes": [
+    {
+      "id": "title",
+      "type": "rounded_rectangle",
+      "bbox": [
+        200,
+        15,
+        1130,
+        60
+      ],
+      "style": "title_bar",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "panel_left",
+      "type": "rectangle",
+      "bbox": [
+        12,
+        110,
+        440,
+        885
+      ],
+      "style": "panel",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "panel_mid",
+      "type": "rectangle",
+      "bbox": [
+        470,
+        110,
+        560,
+        885
+      ],
+      "style": "panel",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "panel_right",
+      "type": "rectangle",
+      "bbox": [
+        1045,
+        110,
+        480,
+        555
+      ],
+      "style": "panel",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "panel_right_bottom",
+      "type": "rectangle",
+      "bbox": [
+        1045,
+        692,
+        480,
+        255
+      ],
+      "style": "panel",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "hdr_left",
+      "type": "rectangle",
+      "bbox": [
+        12,
+        110,
+        440,
+        45
+      ],
+      "style": "title_bar",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "hdr_mid",
+      "type": "rectangle",
+      "bbox": [
+        470,
+        110,
+        560,
+        45
+      ],
+      "style": "title_bar",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "hdr_right",
+      "type": "rectangle",
+      "bbox": [
+        1045,
+        110,
+        480,
+        45
+      ],
+      "style": "title_bar",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "hdr_rb",
+      "type": "rectangle",
+      "bbox": [
+        1045,
+        692,
+        480,
+        45
+      ],
+      "style": "title_bar",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "out_head",
+      "type": "rounded_rectangle",
+      "bbox": [
+        92,
+        190,
+        285,
+        68
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "final_norm",
+      "type": "rounded_rectangle",
+      "bbox": [
+        92,
+        295,
+        285,
+        68
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "tb_dashed",
+      "type": "rounded_rectangle",
+      "bbox": [
+        60,
+        410,
+        345,
+        435
+      ],
+      "style": {
+        "fill": "none",
+        "stroke": "gray",
+        "line_width": 1.5,
+        "rounded_radius": 20
+      },
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "tb_title",
+      "type": "text",
+      "bbox": [
+        170,
+        432,
+        180,
+        30
+      ],
+      "text": "TransformerBlock",
+      "style": {
+        "font_size": 17,
+        "bold": true
+      },
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "ln2",
+      "type": "rounded_rectangle",
+      "bbox": [
+        140,
+        480,
+        210,
+        45
+      ],
+      "style": "box_white",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "ff",
+      "type": "rounded_rectangle",
+      "bbox": [
+        140,
+        540,
+        210,
+        45
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "ln1",
+      "type": "rounded_rectangle",
+      "bbox": [
+        140,
+        645,
+        210,
+        45
+      ],
+      "style": "box_white",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "att",
+      "type": "rounded_rectangle",
+      "bbox": [
+        140,
+        700,
+        210,
+        52
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "tok_emb",
+      "type": "rounded_rectangle",
+      "bbox": [
+        55,
+        900,
+        175,
+        58
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "pos_emb",
+      "type": "rounded_rectangle",
+      "bbox": [
+        255,
+        900,
+        175,
+        58
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step1",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        170,
+        520,
+        36
+      ],
+      "style": "step_head",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step2",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        290,
+        520,
+        36
+      ],
+      "style": "step_head",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "box_a",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        350,
+        520,
+        125
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "box_b",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        490,
+        520,
+        100
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "box_c",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        600,
+        520,
+        95
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "box_d",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        710,
+        520,
+        85
+      ],
+      "style": "box_light",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "step3",
+      "type": "rounded_rectangle",
+      "bbox": [
+        490,
+        815,
+        520,
+        36
+      ],
+      "style": "step_head",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "params_tree",
+      "type": "text",
+      "bbox": [
+        1060,
+        165,
+        460,
+        440
+      ],
+      "text": "params → wpe / wte / blocks (attn c_attn/c_proj, mlp c_fc/c_proj, ln_1 ln_2) / g / b",
+      "style": "text_black",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "lbl_left_title",
+      "text": "GPT 模型结构（PyTorch 实现）",
+      "mode": "text",
+      "x": 232,
+      "y": 132,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 18,
+      "style": {
+        "text_color": "white",
+        "bold": true
+      },
+      "metadata": {
+        "node_id": "hdr_left",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_mid_title",
+      "text": "权重加载的主要步骤",
+      "mode": "text",
+      "x": 750,
+      "y": 132,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 18,
+      "style": {
+        "text_color": "white",
+        "bold": true
+      },
+      "metadata": {
+        "node_id": "hdr_mid",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_right_title",
+      "text": "params 的结构（GPT-2 权重字典）",
+      "mode": "text",
+      "x": 1285,
+      "y": 132,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 18,
+      "style": {
+        "text_color": "white",
+        "bold": true
+      },
+      "metadata": {
+        "node_id": "hdr_right",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_rb_title",
+      "text": "关键说明",
+      "mode": "text",
+      "x": 1285,
+      "y": 714,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 18,
+      "style": {
+        "text_color": "white",
+        "bold": true
+      },
+      "metadata": {
+        "node_id": "hdr_rb",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_title_text",
+      "text": "load_weights_into_gpt：将 GPT-2 预训练权重加载到模型中",
+      "mode": "text",
+      "x": 765,
+      "y": 45,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 26,
+      "style": {
+        "text_color": "black",
+        "bold": true
+      },
+      "metadata": {
+        "node_id": "title",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_out_head",
+      "text": "输出层\nout_head",
+      "mode": "text",
+      "x": 234,
+      "y": 224,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 17,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "out_head",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_final_norm",
+      "text": "最终 LayerNorm\nfinal_norm",
+      "mode": "text",
+      "x": 234,
+      "y": 329,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 17,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "final_norm",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_times_l",
+      "text": "× L (12)",
+      "mode": "math",
+      "x": 360,
+      "y": 390,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 17,
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          310,
+          375,
+          80,
+          30
+        ],
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_ln2",
+      "text": "LayerNorm (norm2)",
+      "mode": "text",
+      "x": 245,
+      "y": 502,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "ln2",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_ff",
+      "text": "FeedForward (ff)",
+      "mode": "text",
+      "x": 245,
+      "y": 562,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "ff",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_ln1",
+      "text": "LayerNorm (norm1)",
+      "mode": "text",
+      "x": 245,
+      "y": 667,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "ln1",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_att",
+      "text": "Multi-Head Attention\n(att)",
+      "mode": "text",
+      "x": 245,
+      "y": 726,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "att",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_plus1",
+      "text": "+",
+      "mode": "math",
+      "x": 245,
+      "y": 612,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 24,
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          235,
+          595,
+          20,
+          30
+        ],
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_plus2",
+      "text": "+",
+      "mode": "math",
+      "x": 245,
+      "y": 785,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 24,
+      "metadata": {
+        "node_id": null,
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "bbox": [
+          235,
+          770,
+          20,
+          30
+        ],
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_tok_emb",
+      "text": "Token 嵌入\ntok_emb",
+      "mode": "text",
+      "x": 142,
+      "y": 929,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "tok_emb",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "lbl_pos_emb",
+      "text": "位置嵌入\npos_emb",
+      "mode": "text",
+      "x": 342,
+      "y": 929,
+      "anchor": "center",
+      "align": "center",
+      "font_size": 16,
+      "style": "text_black",
+      "metadata": {
+        "node_id": "pos_emb",
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_out_final",
+      "from": "final_norm",
+      "to": "out_head",
+      "from_anchor": "north",
+      "to_anchor": "south",
+      "routing": "straight",
+      "first_axis": "y",
+      "arrow": "end",
+      "style": "arrow",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "e_tb_final",
+      "from": "tb_dashed",
+      "to": "final_norm",
+      "from_anchor": "north",
+      "to_anchor": "south",
+      "routing": "straight",
+      "first_axis": "y",
+      "arrow": "end",
+      "style": "arrow",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "e_tok_tb",
+      "from": "tok_emb",
+      "to": "tb_dashed",
+      "from_anchor": "north",
+      "to_anchor": "south",
+      "routing": "orthogonal",
+      "first_axis": "y",
+      "arrow": "end",
+      "style": "arrow",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    },
+    {
+      "id": "e_pos_tb",
+      "from": "pos_emb",
+      "to": "tb_dashed",
+      "from_anchor": "north",
+      "to_anchor": "south",
+      "routing": "orthogonal",
+      "first_axis": "y",
+      "arrow": "end",
+      "style": "arrow",
+      "metadata": {
+        "source": "vlm_proposal_not_measured",
+        "review_status": "unverified",
+        "human_review_required": true
+      }
+    }
+  ],
+  "metadata": {
+    "source": "vlm_proposal_not_measured",
+    "review_status": "unverified",
+    "resolution_note": "Coarse reconstruction preserving semantic layout, text in Chinese, colors, arrows, and relative panel structure. Fine internal tree lines and step bullets are condensed.",
+    "human_review_required": true
+  }
+}

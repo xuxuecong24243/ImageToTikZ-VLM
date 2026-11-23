@@ -1,0 +1,19 @@
+{
+  "status": "patch_proposed",
+  "observations": [
+    {
+      "object_id": "label_WE_dim",
+      "issue": "mock_fixed_line_crosses_dimension_label",
+      "confidence": 0.0,
+      "reason": "Human-authored OFFLINE MOCK, not model feedback: the fixed connection at x=530 crosses the dimension label. Test a 20 px left shift while preserving the text and all geometry."
+    }
+  ],
+  "operations": [
+    {
+      "op": "move_label",
+      "id": "label_WE_dim",
+      "dx": -20,
+      "dy": 0
+    }
+  ]
+}

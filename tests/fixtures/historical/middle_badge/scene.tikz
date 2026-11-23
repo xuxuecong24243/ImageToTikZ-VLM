@@ -1,0 +1,82 @@
+% Deterministic scene renderer; semantic objects and coordinates are supplied by the caller.
+\definecolor{sceneblack}{HTML}{111111}
+\definecolor{sceneblue}{HTML}{2477AA}
+\definecolor{scenedarkblue}{HTML}{26445C}
+\definecolor{scenegray}{HTML}{777777}
+\definecolor{scenelightblue}{HTML}{D8EDF8}
+\definecolor{scenewhite}{HTML}{FFFFFF}
+\begin{tikzpicture}[>=Latex]
+\useasboundingbox (0pt,0pt) rectangle (242.4pt,409.6pt);
+% node: outer_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=226.4pt,minimum height=360pt,draw=scenedarkblue,line width=0.8pt,fill=scenewhite,rounded corners=4pt] (n-outer_card) at (121.2pt,185.6pt) {};
+% node: title_strip (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=218.4pt,minimum height=20pt,draw=none,line width=0.48pt,fill=scenedarkblue,rounded corners=3.2pt] (n-title_strip) at (121.2pt,351.6pt) {};
+% node: title_text (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=178.4pt,minimum height=12pt,draw=none,fill=none] (n-title_text) at (121.2pt,351.6pt) {};
+% node: step1_badge (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=16pt,minimum height=16pt,draw=none,fill=none] (n-step1_badge) at (22pt,329.6pt) {};
+% node: step1_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=80pt,minimum height=12pt,draw=none,fill=none] (n-step1_title) at (74pt,329.6pt) {};
+% node: step1_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=202.4pt,minimum height=34pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step1_card) at (133.2pt,304.6pt) {};
+% node: step1_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=196.4pt,minimum height=28pt,draw=none,fill=none] (n-step1_body) at (136.2pt,303.6pt) {};
+% node: step2_badge (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=16pt,minimum height=16pt,draw=none,fill=none] (n-step2_badge) at (22pt,273.6pt) {};
+% node: step2_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=160pt,minimum height=12pt,draw=none,fill=none] (n-step2_title) at (114pt,273.6pt) {};
+% node: step2a_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=214.4pt,minimum height=44pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step2a_card) at (127.2pt,239.6pt) {};
+% node: step2a_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=120pt,minimum height=10pt,draw=none,fill=none] (n-step2a_title) at (86pt,253.4pt) {};
+% node: step2a_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=206.4pt,minimum height=28pt,draw=none,fill=none] (n-step2a_body) at (129.2pt,233.6pt) {};
+% node: step2b_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=214.4pt,minimum height=32pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step2b_card) at (127.2pt,197.6pt) {};
+% node: step2b_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=120pt,minimum height=10pt,draw=none,fill=none] (n-step2b_title) at (86pt,205.4pt) {};
+% node: step2b_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=206.4pt,minimum height=16pt,draw=none,fill=none] (n-step2b_body) at (129.2pt,191.6pt) {};
+% node: step2c_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=214.4pt,minimum height=32pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step2c_card) at (127.2pt,161.6pt) {};
+% node: step2c_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=120pt,minimum height=10pt,draw=none,fill=none] (n-step2c_title) at (86pt,169.4pt) {};
+% node: step2c_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=206.4pt,minimum height=16pt,draw=none,fill=none] (n-step2c_body) at (129.2pt,155.6pt) {};
+% node: step2d_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=214.4pt,minimum height=32pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step2d_card) at (127.2pt,125.6pt) {};
+% node: step2d_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=120pt,minimum height=10pt,draw=none,fill=none] (n-step2d_title) at (86pt,133.4pt) {};
+% node: step2d_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=206.4pt,minimum height=16pt,draw=none,fill=none] (n-step2d_body) at (129.2pt,119.6pt) {};
+% node: step3_badge (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=16pt,minimum height=16pt,draw=none,fill=none] (n-step3_badge) at (22pt,93.6pt) {};
+% node: step3_title (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=60pt,minimum height=12pt,draw=none,fill=none] (n-step3_title) at (64pt,93.6pt) {};
+% node: step3_card (rounded_rectangle)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=214.4pt,minimum height=32pt,draw=scenegray,line width=0.4pt,fill=scenelightblue,rounded corners=3.2pt] (n-step3_card) at (127.2pt,69.6pt) {};
+% node: step3_body (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=206.4pt,minimum height=20pt,draw=none,fill=none] (n-step3_body) at (129.2pt,69.6pt) {};
+% node: top_title_label (text)
+\node[rectangle,inner sep=0pt,outer sep=0pt,minimum width=240pt,minimum height=16pt,draw=none,fill=none] (n-top_title_label) at (122pt,397.6pt) {};
+% Labels are independent editable nodes, drawn after all filled shapes and edges.
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=center,text=scenewhite,font={\fontsize{8.8pt}{11pt}\selectfont\bfseries},text width=178.4pt] (t-title_text) at (121.2pt,351.6pt) {权重加载的主要步骤};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=center,text=scenewhite,font={\fontsize{8.8pt}{11pt}\selectfont\bfseries},text width=16pt] (t-step1_badge) at (22pt,329.6pt) {1};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{7.2pt}{9pt}\selectfont\bfseries},text width=80pt] (t-step1_title) at (74pt,329.6pt) {嵌入层};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6pt}{7.5pt}\selectfont},text width=196.4pt] (t-step1_body) at (136.2pt,303.6pt) {• pos\_emb.weight ← params["wpe"]\\• tok\_emb.weight ← params["wte"]};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=center,text=scenewhite,font={\fontsize{8.8pt}{11pt}\selectfont\bfseries},text width=16pt] (t-step2_badge) at (22pt,273.6pt) {2};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6.8pt}{8.5pt}\selectfont\bfseries},text width=160pt] (t-step2_title) at (114pt,273.6pt) {对每个 Transformer 块 ($b = 0,\ldots, L-1$)};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6.4pt}{8pt}\selectfont\bfseries},text width=120pt] (t-step2a_title) at (86pt,253.4pt) {(a) 注意力的 Q, K, V 投影};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{5.6pt}{7pt}\selectfont},text width=206.4pt] (t-step2a_body) at (129.2pt,233.6pt) {• 将 c\_attn["w"] 沿最后一维分成 q\_w, k\_w, v\_w\\• 加载到 W\_query / W\_key / W\_value（转置 .T）\\• 同理，分割 c\_attn["b"] 加载偏置};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6.4pt}{8pt}\selectfont\bfseries},text width=120pt] (t-step2b_title) at (86pt,205.4pt) {(b) 注意力的输出投影};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{5.6pt}{7pt}\selectfont},text width=206.4pt] (t-step2b_body) at (129.2pt,191.6pt) {• out\_proj.weight ← c\_proj["w"].T\\• out\_proj.bias   ← c\_proj["b"]};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6.4pt}{8pt}\selectfont\bfseries},text width=120pt] (t-step2c_title) at (86pt,169.4pt) {(c) 前馈网络 (MLP)};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{5.6pt}{7pt}\selectfont},text width=206.4pt] (t-step2c_body) at (129.2pt,155.6pt) {• ff.layers[0] ← mlp["c\_fc"]（FC, 扩升维）\\• ff.layers[2] ← mlp["c\_proj"]（降维投影）};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6.4pt}{8pt}\selectfont\bfseries},text width=120pt] (t-step2d_title) at (86pt,133.4pt) {(d) 两个 LayerNorm};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{5.6pt}{7pt}\selectfont},text width=206.4pt] (t-step2d_body) at (129.2pt,119.6pt) {• norm1 ← ln\_1["g"], ln\_1["b"]\\• norm2 ← ln\_2["g"], ln\_2["b"]};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=center,text=scenewhite,font={\fontsize{8.8pt}{11pt}\selectfont\bfseries},text width=16pt] (t-step3_badge) at (22pt,93.6pt) {3};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{7.2pt}{9pt}\selectfont\bfseries},text width=60pt] (t-step3_title) at (64pt,93.6pt) {最终层};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{6pt}{7.5pt}\selectfont},text width=206.4pt] (t-step3_body) at (129.2pt,69.6pt) {• final\_norm.scale/shift ← params["g"], params["b"]\\• out\_head.weight ← params["wte"]（与词嵌入权重共享）};
+\node[inner sep=0pt,outer sep=0pt,anchor=center,align=left,text=sceneblack,font={\fontsize{9.6pt}{12pt}\selectfont\bfseries},text width=240pt] (t-top_title_label) at (122pt,397.6pt) {hts\_into\_gpt：将 GPT-2 预训练权重};
+\node[inner sep=0pt,outer sep=0pt,anchor=south west,align=left,text=sceneblack,font={\fontsize{9.6pt}{12pt}\selectfont}] (l-lbl_fragment) at (2pt,395.6pt) {hts\_into\_gpt：将 GPT-2 预训练权重};
+\end{tikzpicture}

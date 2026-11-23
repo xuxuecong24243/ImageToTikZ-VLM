@@ -1,0 +1,100 @@
+{
+  "canvas": {
+    "width": 606,
+    "height": 1024,
+    "coordinate_system": "top-left",
+    "scale": 0.4
+  },
+  "styles": {
+    "plain": {
+      "stroke": "none",
+      "fill": "none"
+    }
+  },
+  "nodes": [
+    {
+      "id": "tensor",
+      "type": "tensor3d",
+      "bbox": [
+        40,
+        150,
+        100,
+        60
+      ],
+      "grid": {
+        "rows": 2,
+        "cols": 3
+      },
+      "depth": {
+        "dx": 12,
+        "dy": -10
+      }
+    },
+    {
+      "id": "matrix",
+      "type": "matrix",
+      "bbox": [
+        220,
+        150,
+        120,
+        60
+      ],
+      "grid": {
+        "rows": 2,
+        "cols": 4
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "caption",
+      "mode": "rich",
+      "x": 30,
+      "y": 40,
+      "anchor": "north west",
+      "segments": [
+        {
+          "type": "text",
+          "content": "离线 Mock：中文与公式 "
+        },
+        {
+          "type": "math",
+          "content": "W\\in\\mathbb{R}^{4\\times8}"
+        }
+      ],
+      "style": "plain",
+      "metadata": {
+        "node_id": "matrix",
+        "bbox": [
+          30,
+          40,
+          450,
+          35
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "path",
+      "points": [
+        [
+          140,
+          180
+        ],
+        [
+          220,
+          180
+        ]
+      ],
+      "arrow": "end",
+      "metadata": {
+        "source_id": "tensor",
+        "target_id": "matrix"
+      }
+    }
+  ],
+  "metadata": {
+    "source": "synthetic_mock_not_recognition"
+  }
+}

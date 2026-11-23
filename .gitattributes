@@ -1,0 +1,3 @@
+# Historical regression fixtures and package exports have exact byte hashes.
+# Preserve their checked-in bytes on Windows and other platforms.
+* -text

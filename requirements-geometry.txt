@@ -1,0 +1,4 @@
+# Optional geometry analysis dependencies, tested with Python 3.9.10.
+# Install only inside the project's virtual environment.
+numpy==2.0.2
+opencv-python-headless==4.12.0.88

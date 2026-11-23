@@ -1,0 +1,54 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.aws/
+.codex/
+.agents/
+
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Private inputs and generated experiment/build output stay local.
+inputs/*
+!inputs/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.out
+*.toc
+
+# Downloaded weights are installed in the isolated OCR environment.
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.cache/
+
+# Editor and operating-system state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

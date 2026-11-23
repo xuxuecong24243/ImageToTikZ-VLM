@@ -1,0 +1,1451 @@
+{
+  "method": "Reviewed public fixtures: only metadata machine paths redacted; all prior validation/TikZ expectations unchanged.",
+  "source_report": "outputs/scene_contract_repair_20261120/compatibility_report.json",
+  "source_report_sha256": "0db1400d4311c9a824adb11a11530d8f5cfd92c4f2f8c3bf6703e28fb16b8aea",
+  "original_sha256_meaning": "SHA of historical original, not public copy; sha256 legacy key keeps the same original value.",
+  "public_sha256_meaning": "SHA of the checked-in fixture; differs only where redacted_fields is nonempty.",
+  "results": [
+    {
+      "path": "scenes/scene_001.json",
+      "sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "examples/gpt_embedding_scene.json",
+      "original_sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "public_sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_002.json",
+      "sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/auto_20261113T041159Z_080f75a6/initial_scene.json",
+      "original_sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "public_sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_003.json",
+      "sha256": "93338990be65229ce2f6812441ac637e0abe984d3d198d3b5689a9b9b4f4a3e8",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/auto_20261113T041159Z_080f75a6/supplied_scene.json",
+      "original_sha256": "93338990be65229ce2f6812441ac637e0abe984d3d198d3b5689a9b9b4f4a3e8",
+      "public_sha256": "93338990be65229ce2f6812441ac637e0abe984d3d198d3b5689a9b9b4f4a3e8",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_004.json",
+      "sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/auto_20261113T041159Z_080f75a6/iteration_01/scene.json",
+      "original_sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "public_sha256": "6d2a2f7f75fce0b7e9ad0e7cd5e017789103fb7a67aa067de684f47055d37b13",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_005.json",
+      "sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/auto_20261114T035732Z_6dc3b2e1/initial_scene.json",
+      "original_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "public_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_006.json",
+      "sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/auto_20261114T035732Z_6dc3b2e1/iteration_01/scene.json",
+      "original_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "public_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_007.json",
+      "sha256": "0c485735a065a5dffd808e86c86c21ab9210c0a5c5b265133712fbb8945b6e22",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "c75e26aa6d6eb6f7fab5f78f9254a7ac433b3016cd2032a0ce91badcd7b37a86",
+        "characters": 4049
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "c75e26aa6d6eb6f7fab5f78f9254a7ac433b3016cd2032a0ce91badcd7b37a86",
+        "characters": 4049
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/enriched_20261113T033520_653019Z/scene_enriched_draft.json",
+      "original_sha256": "0c485735a065a5dffd808e86c86c21ab9210c0a5c5b265133712fbb8945b6e22",
+      "public_sha256": "21ca0ca864eb252b30ce6cd943af78ae0c314f512052d27078c00c782fe62227",
+      "redacted_fields": [
+        "/metadata/offline_enrichment/inputs/scene/path",
+        "/metadata/offline_enrichment/inputs/semantic/path",
+        "/metadata/offline_enrichment/inputs/context/path",
+        "/metadata/offline_enrichment/inputs/image/path"
+      ]
+    },
+    {
+      "path": "scenes/scene_008.json",
+      "sha256": "55760dc07b6bffd66fe0e080ea092301129f6eaf91017886f967d87218ff8354",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node label_Epos.bbox end.x is outside the supported range."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node label_Epos.bbox end.x is outside the supported range."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/json_recovery_20261113T042822Z_6f9d26b2/extracted_scene.json",
+      "original_sha256": "55760dc07b6bffd66fe0e080ea092301129f6eaf91017886f967d87218ff8354",
+      "public_sha256": "55760dc07b6bffd66fe0e080ea092301129f6eaf91017886f967d87218ff8354",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_009.json",
+      "sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/json_recovery_20261113T042822Z_6f9d26b2/repaired_scene.json",
+      "original_sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "public_sha256": "9446a8f857ea1c189ff71f33fb93fc5b5cbf0f4a7c676c7265bb66593c048c78",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_010.json",
+      "sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/json_recovery_20261113T042822Z_6f9d26b2/auto_20261113T042822Z_5eabfc90/initial_scene.json",
+      "original_sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "public_sha256": "9446a8f857ea1c189ff71f33fb93fc5b5cbf0f4a7c676c7265bb66593c048c78",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_011.json",
+      "sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/json_recovery_20261113T042822Z_6f9d26b2/auto_20261113T042822Z_5eabfc90/supplied_scene.json",
+      "original_sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "public_sha256": "9446a8f857ea1c189ff71f33fb93fc5b5cbf0f4a7c676c7265bb66593c048c78",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_012.json",
+      "sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/json_recovery_20261113T042822Z_6f9d26b2/auto_20261113T042822Z_5eabfc90/iteration_01/scene.json",
+      "original_sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "public_sha256": "9446a8f857ea1c189ff71f33fb93fc5b5cbf0f4a7c676c7265bb66593c048c78",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_013.json",
+      "sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/layout_refinement_20261113T053553Z_94a01765/scene_after.json",
+      "original_sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "public_sha256": "e453899856ddb4c23c1c05597a7d884a0dd7ac641ad186de42bfdd4b684b7999",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_014.json",
+      "sha256": "23ec7197413b43f3e1073a7a219501878c926127815508f545925a854c6f4fbb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "503c4f18790d4710de7dcc22c9b970b2ed2ed481ca20f9894e6932b0d2190c63",
+        "characters": 20465
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "503c4f18790d4710de7dcc22c9b970b2ed2ed481ca20f9894e6932b0d2190c63",
+        "characters": 20465
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/layout_refinement_20261113T053553Z_94a01765/scene_before.json",
+      "original_sha256": "23ec7197413b43f3e1073a7a219501878c926127815508f545925a854c6f4fbb",
+      "public_sha256": "2f80d3059b4ead81dc1a5ead87e7c7b91b0baa94673a0dbfd374317755d3b052",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_015.json",
+      "sha256": "1bc70db94d12985c5fae9f9fe254e985c2e6916f4f2f70889f0ff98b1f42b243",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "11c18c3c780a7cf214efe47f860265590fbf50232dfce3716688ab8f0f766e16",
+        "characters": 10063
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "11c18c3c780a7cf214efe47f860265590fbf50232dfce3716688ab8f0f766e16",
+        "characters": 10063
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/offline_gpt2_scene_repair_20261114T093235Z_6394846a/scene_after.json",
+      "original_sha256": "1bc70db94d12985c5fae9f9fe254e985c2e6916f4f2f70889f0ff98b1f42b243",
+      "public_sha256": "1bc70db94d12985c5fae9f9fe254e985c2e6916f4f2f70889f0ff98b1f42b243",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_016.json",
+      "sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/offline_gpt2_scene_repair_20261114T093235Z_6394846a/scene_before.json",
+      "original_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "public_sha256": "7ba3030123e34cf35109447dd39a918e897902357c4d4eb9e1ab19e9da0174fa",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_017.json",
+      "sha256": "63982f2405e4bf9a954d6308a8114e38c56e22b7c9c40c4db55b59d86ba9c827",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "3362354ad9aac40adc7a885be24c0a9833a9ce92b7602c55011a6f519cbaf28f",
+        "characters": 20467
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "3362354ad9aac40adc7a885be24c0a9833a9ce92b7602c55011a6f519cbaf28f",
+        "characters": 20467
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/offline_patch_optimization_20261114T033707Z_b98fbe65/scene_after.json",
+      "original_sha256": "63982f2405e4bf9a954d6308a8114e38c56e22b7c9c40c4db55b59d86ba9c827",
+      "public_sha256": "ef2e2a28c295dea84683086229badfd1fb45eb71c2c8ba2c732e0f4c7e9a042c",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_018.json",
+      "sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/offline_patch_optimization_20261114T033707Z_b98fbe65/scene_before.json",
+      "original_sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "public_sha256": "e453899856ddb4c23c1c05597a7d884a0dd7ac641ad186de42bfdd4b684b7999",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_019.json",
+      "sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_badge_fix_20261117T154352Z/scene_after.json",
+      "original_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "public_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_020.json",
+      "sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "82b0a2ea416624736e542ea1ba4ef23157a2eb650ab4d7df2b08e6f551f7822c",
+        "characters": 9598
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "82b0a2ea416624736e542ea1ba4ef23157a2eb650ab4d7df2b08e6f551f7822c",
+        "characters": 9598
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_badge_fix_20261117T154352Z/scene_before.json",
+      "original_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "public_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_021.json",
+      "sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_geometry_refinement_20261118T065555Z/scene_before.json",
+      "original_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "public_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_022.json",
+      "sha256": "f98349ac4367758bb0b5af59c37be9b901e38877b68e2285d7cf3d68c50ed496",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "b94e2c10c5c64752ee61d4859806d824ed9ce6dc8417b929e6849ec089d4e567",
+        "characters": 9145
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "b94e2c10c5c64752ee61d4859806d824ed9ce6dc8417b929e6849ec089d4e567",
+        "characters": 9145
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_geometry_refinement_20261118T065555Z/01_representative/scene.json",
+      "original_sha256": "f98349ac4367758bb0b5af59c37be9b901e38877b68e2285d7cf3d68c50ed496",
+      "public_sha256": "f98349ac4367758bb0b5af59c37be9b901e38877b68e2285d7cf3d68c50ed496",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_023.json",
+      "sha256": "68d99850bf3c91102f6ba458ba9b1f80d3e03da1887e8d47a7d5f1a72a83b8d8",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "bff2f0ef2fc9eb1adc1ffc62c11498cfcdf262ad96e2644502409ff37b4537c4",
+        "characters": 9187
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "bff2f0ef2fc9eb1adc1ffc62c11498cfcdf262ad96e2644502409ff37b4537c4",
+        "characters": 9187
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_geometry_refinement_20261118T065555Z/02_fonts/scene.json",
+      "original_sha256": "68d99850bf3c91102f6ba458ba9b1f80d3e03da1887e8d47a7d5f1a72a83b8d8",
+      "public_sha256": "68d99850bf3c91102f6ba458ba9b1f80d3e03da1887e8d47a7d5f1a72a83b8d8",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_024.json",
+      "sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5e5fad52125b288b157566e8a8d41ad1a5e177ebd6d1db5c361d563da0f7ccf9",
+        "characters": 9187
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5e5fad52125b288b157566e8a8d41ad1a5e177ebd6d1db5c361d563da0f7ccf9",
+        "characters": 9187
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_geometry_refinement_20261118T065555Z/03_geometry/scene.json",
+      "original_sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "public_sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_025.json",
+      "sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node step2_title.type has an unsupported value."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node step2_title.type has an unsupported value."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_recovery_20261117T121509Z/scene_original.json",
+      "original_sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "public_sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_026.json",
+      "sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "82b0a2ea416624736e542ea1ba4ef23157a2eb650ab4d7df2b08e6f551f7822c",
+        "characters": 9598
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "82b0a2ea416624736e542ea1ba4ef23157a2eb650ab4d7df2b08e6f551f7822c",
+        "characters": 9598
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_recovery_20261117T121509Z/scene_repaired.json",
+      "original_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "public_sha256": "6b95d60876eb8be2e8cda28f58c04efe3f4356464f27089493cc2fef683a12e0",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_027.json",
+      "sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_visual_refinement_20261118T032551Z/scene.json",
+      "original_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "public_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_028.json",
+      "sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "e0dcaea113a066c88601121aa125784a16627f681d45ef6410eea45d03dde317",
+        "characters": 9142
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_middle_visual_refinement_20261118T032551Z/final/scene.json",
+      "original_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "public_sha256": "7f276153c7b010d0bd756a2d99b18476b7f9c24a4f85523f8bbc8a1b64c864fb",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_029.json",
+      "sha256": "dced6503734f53e6eeb1c4c0e1d83aabb33e6d70cda2a2e4a4d42cce5ccbd179",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "a45cfc34e024be185e8791ca0e619cd9f048ab49bf19dfc53315f155bbfb9015",
+        "characters": 13554
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "a45cfc34e024be185e8791ca0e619cd9f048ab49bf19dfc53315f155bbfb9015",
+        "characters": 13554
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_reconstruction_20261114T133100Z_06de95e9/merged_scene.json",
+      "original_sha256": "dced6503734f53e6eeb1c4c0e1d83aabb33e6d70cda2a2e4a4d42cce5ccbd179",
+      "public_sha256": "dced6503734f53e6eeb1c4c0e1d83aabb33e6d70cda2a2e4a4d42cce5ccbd179",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_030.json",
+      "sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5e5fad52125b288b157566e8a8d41ad1a5e177ebd6d1db5c361d563da0f7ccf9",
+        "characters": 9187
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5e5fad52125b288b157566e8a8d41ad1a5e177ebd6d1db5c361d563da0f7ccf9",
+        "characters": 9187
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_title_bands_refinement_20261119/scene_before.json",
+      "original_sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "public_sha256": "4c6a150d67e5d92fa3a1d28294b83cedf45b243f2f14f8bbcec6ffdf75ad425c",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_031.json",
+      "sha256": "e13e2ac574dcbf01c3e869c036cdae0e1197eef281cde987950bf182ead3be1a",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "71ccc6361cd2c96186bc91aca3d0ca5a42b4fbf777049b9f5cd8819448c09ee2",
+        "characters": 9186
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "71ccc6361cd2c96186bc91aca3d0ca5a42b4fbf777049b9f5cd8819448c09ee2",
+        "characters": 9186
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_title_bands_refinement_20261119/01_top/scene.json",
+      "original_sha256": "e13e2ac574dcbf01c3e869c036cdae0e1197eef281cde987950bf182ead3be1a",
+      "public_sha256": "e13e2ac574dcbf01c3e869c036cdae0e1197eef281cde987950bf182ead3be1a",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_032.json",
+      "sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_title_bands_refinement_20261119/01_top_fit/scene.json",
+      "original_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "public_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_033.json",
+      "sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_title_bands_refinement_20261119/02_step1/scene.json",
+      "original_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "public_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_034.json",
+      "sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "6e5194f92bf77cf14044bb04963bedc05f2bb3d207945870c403d82812946ac2",
+        "characters": 9188
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_title_bands_refinement_20261119/03_final/scene.json",
+      "original_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "public_sha256": "a40401936193e2383c4fad857785954b96d4d5c60ee22dff553960e08043e77a",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_035.json",
+      "sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261116T034536Z_052b4540/mock_global_scene.json",
+      "original_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "public_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_036.json",
+      "sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261116T034536Z_052b4540/mock_local_scene.json",
+      "original_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "public_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_037.json",
+      "sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261116T035522Z_77a258c8/mock_global_scene.json",
+      "original_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "public_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_038.json",
+      "sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261116T035522Z_77a258c8/mock_local_scene.json",
+      "original_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "public_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_039.json",
+      "sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node step2_title.type has an unsupported value."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "node step2_title.type has an unsupported value."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261117T085250Z_482ca675/local_scene.json",
+      "original_sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "public_sha256": "06e36712c99d8a9077636b49341c42d8c951d2645db3fb00c3865e347ae1e304",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_040.json",
+      "sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261117T085250Z_482ca675/mock_global_scene.json",
+      "original_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "public_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_041.json",
+      "sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261117T085250Z_482ca675/mock_local_scene.json",
+      "original_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "public_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_042.json",
+      "sha256": "62d848471774d742e00676e5044ce8e251a1b9d62ed7687f218b48f988511b6a",
+      "old_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "new_validation": {
+        "accepted": false,
+        "error_type": "SceneValidationError",
+        "error": "scene: unknown fields ['type']; missing fields []."
+      },
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/region_vlm_middle_20261117T085250Z_482ca675/response_parsed.json",
+      "original_sha256": "62d848471774d742e00676e5044ce8e251a1b9d62ed7687f218b48f988511b6a",
+      "public_sha256": "62d848471774d742e00676e5044ce8e251a1b9d62ed7687f218b48f988511b6a",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_043.json",
+      "sha256": "23ec7197413b43f3e1073a7a219501878c926127815508f545925a854c6f4fbb",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "503c4f18790d4710de7dcc22c9b970b2ed2ed481ca20f9894e6932b0d2190c63",
+        "characters": 20465
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "503c4f18790d4710de7dcc22c9b970b2ed2ed481ca20f9894e6932b0d2190c63",
+        "characters": 20465
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/rich_text_20261113T050646Z_22559979/scene_after.json",
+      "original_sha256": "23ec7197413b43f3e1073a7a219501878c926127815508f545925a854c6f4fbb",
+      "public_sha256": "2f80d3059b4ead81dc1a5ead87e7c7b91b0baa94673a0dbfd374317755d3b052",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_044.json",
+      "sha256": "581dc073e9f8b993cf505551df75c3094a630358c8add8f4c48f7560ace0128b",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "dc6e689fa3b35c2aa3732090271e57b1b39a58f790f178be60ca9d076fa7d0b1",
+        "characters": 21058
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "dc6e689fa3b35c2aa3732090271e57b1b39a58f790f178be60ca9d076fa7d0b1",
+        "characters": 21058
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/rich_text_20261113T050646Z_22559979/scene_before.json",
+      "original_sha256": "581dc073e9f8b993cf505551df75c3094a630358c8add8f4c48f7560ace0128b",
+      "public_sha256": "ceb70316110ad73b2514a22b5520b139ed7576f0fd86524c0ab4ab1ac117d004",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_045.json",
+      "sha256": "c6f8697b6c7bd18db59aa1e660eae0e71bd3e2012ff7623c82c1cb428923fc56",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "ba2f2e29c57d1211a73d936dde2f2cf4c68c0ae508d75519f958be7cf9046864",
+        "characters": 2516
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "ba2f2e29c57d1211a73d936dde2f2cf4c68c0ae508d75519f958be7cf9046864",
+        "characters": 2516
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/scene_draft_20261112T142032Z/scene_draft.json",
+      "original_sha256": "c6f8697b6c7bd18db59aa1e660eae0e71bd3e2012ff7623c82c1cb428923fc56",
+      "public_sha256": "c6f8697b6c7bd18db59aa1e660eae0e71bd3e2012ff7623c82c1cb428923fc56",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_046.json",
+      "sha256": "b41880394c173fdc8207efcb6e4e11c094a86faafed6fbc66cc77a5be0f30829",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "df0f98bf581282788983846026673f628fe69fa1b082188bd2a1605d2478447a",
+        "characters": 3863
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "df0f98bf581282788983846026673f628fe69fa1b082188bd2a1605d2478447a",
+        "characters": 3863
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/semantic_20261113T030625_661480Z/scene_semantic_draft.json",
+      "original_sha256": "b41880394c173fdc8207efcb6e4e11c094a86faafed6fbc66cc77a5be0f30829",
+      "public_sha256": "b41880394c173fdc8207efcb6e4e11c094a86faafed6fbc66cc77a5be0f30829",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_047.json",
+      "sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "fba25b01106b64feef9994eaaeb07fd1755cbb021fee9579cf78d9f2e043575b",
+        "characters": 21403
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/structured_20261112T135024_526294Z/scene.json",
+      "original_sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "public_sha256": "1a8abc3beff9820310cfbcd415af5de7d1e2613dd89a3c9139ade9636f19f982",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_048.json",
+      "sha256": "581dc073e9f8b993cf505551df75c3094a630358c8add8f4c48f7560ace0128b",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "dc6e689fa3b35c2aa3732090271e57b1b39a58f790f178be60ca9d076fa7d0b1",
+        "characters": 21058
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "dc6e689fa3b35c2aa3732090271e57b1b39a58f790f178be60ca9d076fa7d0b1",
+        "characters": 21058
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/text_normalization_20261113T044231Z_3621629d/scene_normalized.json",
+      "original_sha256": "581dc073e9f8b993cf505551df75c3094a630358c8add8f4c48f7560ace0128b",
+      "public_sha256": "ceb70316110ad73b2514a22b5520b139ed7576f0fd86524c0ab4ab1ac117d004",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_049.json",
+      "sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "5fcc8902ae7a93db180a7dc5beba6f4a048a8ceb0f09c5d05db1ccae4db011e5",
+        "characters": 25581
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/text_normalization_20261113T044231Z_3621629d/scene_original.json",
+      "original_sha256": "97ce55e906ae2f40b7f19429809bebb799d87372198a4003a73d46318a969d83",
+      "public_sha256": "9446a8f857ea1c189ff71f33fb93fc5b5cbf0f4a7c676c7265bb66593c048c78",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_050.json",
+      "sha256": "912e6f0fcedf52c6afd1817d2f28e83a904a535cab486da4f53a33b20e2cab14",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "60967ba579564372612aabe79fe52ad6935be1bc485e034c2f17198c3edfba82",
+        "characters": 20463
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "60967ba579564372612aabe79fe52ad6935be1bc485e034c2f17198c3edfba82",
+        "characters": 20463
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/visual_refinement_20261113T074425Z_092521d8/scene_after.json",
+      "original_sha256": "912e6f0fcedf52c6afd1817d2f28e83a904a535cab486da4f53a33b20e2cab14",
+      "public_sha256": "57fb341426f36a51112d3ea90de2a0abe11e04cc914a1b0fab5afad0c2ba2ef2",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_051.json",
+      "sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/visual_refinement_20261113T074425Z_092521d8/scene_before.json",
+      "original_sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "public_sha256": "e453899856ddb4c23c1c05597a7d884a0dd7ac641ad186de42bfdd4b684b7999",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_052.json",
+      "sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "f93def53d9e2200b8eb05d178c070b9b21e092e759014a8e261b395caaa14b8d",
+        "characters": 20463
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/visual_refinement_20261113T125903Z_c1b611f6/scene_before.json",
+      "original_sha256": "3789069a4abdd2474d553b64f9a8c587dae357fc15785ace5ab24567e2be96cc",
+      "public_sha256": "e453899856ddb4c23c1c05597a7d884a0dd7ac641ad186de42bfdd4b684b7999",
+      "redacted_fields": [
+        "/metadata/offline_recovery/source_response"
+      ]
+    },
+    {
+      "path": "scenes/scene_053.json",
+      "sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/vlm_diagnostics_acceptance_20261117/evidence/test_middle_final_hash_failure_preserves_api_error_and_report/runs/region_vlm_middle_20261117T081952Z_2ff809c2/mock_global_scene.json",
+      "original_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "public_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_054.json",
+      "sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/vlm_diagnostics_acceptance_20261117/evidence/test_middle_final_hash_failure_preserves_api_error_and_report/runs/region_vlm_middle_20261117T081952Z_2ff809c2/mock_local_scene.json",
+      "original_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "public_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_055.json",
+      "sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1cc897d54bff7e2ccd28141b25fa16bd7157d26ee3b04de87644e9ada170bdf4",
+        "characters": 2689
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/vlm_diagnostics_acceptance_20261117/evidence/test_middle_http200_invalid_json_full_chain/runs/region_vlm_middle_20261117T081953Z_5b96b9fa/mock_global_scene.json",
+      "original_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "public_sha256": "1a826aec65cd97f418f70e9b50c669d739fa917806c93a024a39991c20d0d630",
+      "redacted_fields": []
+    },
+    {
+      "path": "scenes/scene_056.json",
+      "sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "old_validation": {
+        "accepted": true
+      },
+      "new_validation": {
+        "accepted": true
+      },
+      "old_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "new_render": {
+        "generated": true,
+        "sha256": "1c3bd4cf258eb81751ebf034890e65d3ffaf574189b8df25de913166673a432a",
+        "characters": 2456
+      },
+      "identical_tikz": true,
+      "scene_mutated_in_memory": false,
+      "original_path": "outputs/vlm_diagnostics_acceptance_20261117/evidence/test_middle_http200_invalid_json_full_chain/runs/region_vlm_middle_20261117T081953Z_5b96b9fa/mock_local_scene.json",
+      "original_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "public_sha256": "95cbeb5a03e2e634df786b7810d5389a422f8d21eaa8f63e80a2601b49eba879",
+      "redacted_fields": []
+    }
+  ]
+}
